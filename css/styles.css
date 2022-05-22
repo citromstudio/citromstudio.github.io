@@ -1,0 +1,79 @@
+.name {
+}
+html,body{ 
+	width:100%;
+	height:100%;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100;
+  height: 100%;
+  background-color: #032759;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.header-container {
+  position: absolute;
+  top: 5%;
+  right: 50%;
+  color: white;
+}
+
+h1 {
+  font-size: 55px;
+  text-shadow: 5px 5px 7px yellow;
+}
+.download {
+  position: absolute;
+  top: 35%;
+  right: 50%;
+}
+.button {
+  background: #00FFFF;
+  padding: 12px;
+  border-radius: 0px;
+  border: 0px;
+}
